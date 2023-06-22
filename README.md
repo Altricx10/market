@@ -24,3 +24,7 @@ Replace variable by your information:
   - {exposed_port}: the exposed port to access to postgres database
 
 Update application configuration present in `ressources` package with name `aplication.yml` with database configuration. 
+
+## API Documentation
+
+When the application was started, call route ``http://localhost/swagger-ui/index.html`` and retrieve all route exposed by the application.
